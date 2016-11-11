@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rhyna Silva - About me</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <!-- Create a link to index.hmtl when mobile display -->
+          <a href="index.html">
+            <span class="glyphicon glyphicon-home"></span>
+          </a>
+          <!-- Create a link to portafolio.hmtl when mobile display -->
+           <a href="portafolio.html">
+            <span class="glyphicon glyphicon-briefcase"></span>
+          </a>
+          <!-- Create a link to contact.hmtl when mobile display -->
+          <a href="contact.html">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+        </button>
+        <a class="navbar-brand" href="#">Rhyna Silva</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portafolio.html">Portafolio</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li> 
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav> <!-- End Navigation bar-->
+
+   <!-- Main Body goes in Container -->
+  <div class="container">
+
+    <div class="row">
+      <!--Left Column-->
+      <div class="col-md-8">
+        <div class="row">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>Contact</h3>
+            </div> <!--end panel heading-->
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputName2">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+ 
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>               
+            </div><!--end panel body-->
+          </div><!--end panel default-->
+        </div>
+      </div>
+      <div class="text-center">
+        <!--Right Column-->
+        <div class="col-md-4">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3>Connect with Me</h3>
+              </div>
+              <div class="panel-body">
+                <a href="https://www.linkedin.com/in/rhyna-silva-12681113" target="_blank"><img class="" id="linkedin-image" src="assets/images/linkedin-blue-square.png" alt="My linkedin Account" title="My Linkedin Account" width="50"></a>
+                <a href="https://github.com/rhynas" target="_blank"><img class="" id="github-image" src="assets/images/github-wgrey-logo.png" alt="My Github Account" width="50" title="My Github Account"></a>
+                <a href="http://stackoverflow.com/users/6929314/rhyna" target="_blank"><img class="" img id="stack-image"  src="assets/images/stackoverflow-round.png" alt="My Stack Overflow Account" width="50" title="y Stack Overflow Account"></a>
+              </div>     
+            </div>
+        </div><!--End right column-->
+      </div>
+    </div><!--End row-->
+
+  </div><!--End Container-->
+ 
+  <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
+    <div class="container text-center">
+      <h6>&copy; Copyright 2016 Rhyna Silva</h6>
+    </div>
+  </nav>
+</body>
+</html>
